@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="./lienhe.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liên hệ</title>
+  </head>
+  <body>
+    <img src="./ảnh web/ANH_BANNER -23-3-2022.png" alt="banner" width="100%" />
+    <table border="1" width="100%">
+      <tr bgcolor="yellow">
+        <td>
+          <a href="./index.html"><strong>Trang chủ</strong></a>
+        </td>
+        <td>
+          <a href="./gioithieu.html"><strong>Giới thiệu</strong></a>
+        </td>
+        <td>
+          <a href="./tuyensinh.html"><strong>Tuyển sinh</strong></a>
+        </td>
+        <td>
+          <a href="./lienhe.html"><strong>Liên hệ</strong></a>
+        </td>
+      </tr>
+    </table>
+    <h1 style="color: greenyellow">Liên hệ</h1>
+    <form action="submit" method="get">
+      <table border="1" width="100%">
+        <tr>
+          <td>
+            <label for="hovaten"><strong>Họ và tên:</strong></label>
+            <input type="text" name="hovaten" id="hovaten" required />
+          </td>
+          <td>
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" name="email" id="email" required />
+          </td>
+          <td colspan="2">
+            <label for="noidung"><strong>Nội dung:</strong></label>
+            <textarea
+              name="noidung"
+              id="noidung"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="diachi"><strong>Địa chỉ:</strong></label>
+            <input type="text" name="diachi" id="diachi" required />
+          </td>
+          <td>
+            <label for="sdt"><strong>Số điện thoại:</strong></label>
+            <input type="text" name="sdt" id="sdt" required />
+          </td>
+        </tr>
+      </table>
+      <button type="submit">Gửi</button>
+    </form>
+  </body>
+</html>
